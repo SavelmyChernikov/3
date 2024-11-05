@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+}
+:root{
+    --c_b:#5AC3F0;
+    --c_bb:#027DB2;
+
+}
+
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+.h1{
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    padding-top: 2rem;
+}
+.contacs{
+    background-color: var(--c_b);
+    width: 44.958rem;
+    height: 28.87rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    margin-bottom: -6rem;
+}
+.bob{
+    background-image:url('../images/contacs/line.png');
+    height: 8rem;
+    margin-top: 2rem;
+}
+.contacs-li{
+    color: white;
+    padding-top: 2rem;
+    padding-left: 3.16rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    margin-top: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 12.08rem; /* Удалено дублирующее свойство */
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-a {
+    margin-top: 10px;
+    padding-right: 2.083rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.buy-ticket {
+    background-color: var(--c_b);
+    width: 12.5;
+    height: 3.33rem;
+    color: white;
+    padding: 1rem 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: -0.5rem;
+}
+
+.buy-ticket:hover {
+    background-color: #36A2D9;
+}
+.footer{
+    display: flex;
+    padding-top: 10rem;
+    justify-content: center;
+}
+.li-first{
+    padding-top: 1rem;
+}
+.li-first{
+    padding-right: 2rem;
+    color: white;
+}
+.li-second{
+    padding-top: 1.5rem;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.foo a{
+    text-decoration: none;
+}
+.foo{
+    background-image: url('../images/contacs/footer.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 22rem;
+}
+.img-logo{
+    width: 7.25rem;
+    height: 1.25rem;
+}
+.hh{
+    color: black;
+    margin-top: 22rem;
+}
+
+.img-call{
+    margin-top: 2rem;
+    width: 46.87rem;
+    height: 32.5rem;
+}
+
+@media (max-width: 1800px){
+    *{
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 1580px){
+    *{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1400px){
+    *{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 1200px){
+    *{
+        font-size: 14px;
+    }
+    .img-logoo{
+        width: 12.08rem;
+        height: 2.08rem;
+    }
+}
+@media (max-width: 940px){
+    *{
+        font-size: 12px;
+    }
+    .foo{
+        height: 23rem;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .buy-ticket{
+        width: 40%;
+    }
+    header{
+        text-align: center;
+    }
+    .nav-a{
+        padding-right: 0;
+        padding-top: 0;
+        font-size: 1rem;
+    }
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    nav a {
+        padding: 10px 0;
+    }
+    .buy-ticket {
+        text-align: center;
+        margin:auto;
+        
+    }
+}
+
+@media (max-width: 550px){
+    *{
+        font-size: 9px;
+    }
+    .img-inst{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+}
+
+@media (max-width: 500px){
+    *{
+        font-size: 8px;
+    }
+    .img-inst{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+}
+@media (max-width: 370px){
+    *{
+        font-size: 7px;
+    }
+    .img-inst{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+}
